@@ -6,7 +6,7 @@
 <Bet>10.0</Bet>
 </Auction>
 <ExternalId>cc564b3b-e70b-40d4-b0bc-f2876e8bbc3f</ExternalId>
-<Address>Москва, 3-й Кадашёвский переулок, 9</Address>
+<Address>3-й Кадашёвский переулок, 9 Москва, Россия, 115035</Address>
 <AllRoomsArea>+30-10-20</AllRoomsArea>
 <IsApartments>false</IsApartments>
 <BalconiesCount>1</BalconiesCount>
@@ -50,7 +50,6 @@
 <Lng>4441.22</Lng>
 </Coordinates>
 <Description>Some description</Description>
-
 <FlatRoomsCount>2</FlatRoomsCount>
 <FloorNumber>3</FloorNumber>
 <HasBathtub>true</HasBathtub>
