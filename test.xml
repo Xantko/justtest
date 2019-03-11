@@ -1,6 +1,7 @@
 <feed>
 <feed_version>2</feed_version>
 <object>
+  <object>
 <Category>flatRent</Category>
 <Auction>
 <Bet>10.0</Bet>
@@ -129,4 +130,5 @@
 </videoSchema>
 </Videos>
 </object>
+  </object>
 </feed>
