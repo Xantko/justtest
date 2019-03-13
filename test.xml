@@ -90,6 +90,8 @@
         <HasBathtub>true</HasBathtub>
         <IsInHiddenBase>false</IsInHiddenBase>
         <HasShower>true</HasShower>
+        <HasGarage>true</HasGarage>
+        <HasPool>true</HasPool>
         <HasDishwasher>false</HasDishwasher>
         <PetsAllowed>false</PetsAllowed>
         <HasFridge>true</HasFridge>
