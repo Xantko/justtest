@@ -142,9 +142,9 @@
         </BargainTerms>
     </object>
     <object>
-        <Category>cottageRent</Category>
-        <ExternalId>acf72233-1619-4618-a312-b71227fd6dc8</ExternalId>
-        <Description>Some description</Description>
+        <Category>flatRent</Category>
+        <ExternalId>c6515366-f83c-418b-94d9-ff74fda4fdc</ExternalId>
+        <Description>Some description45</Description>
         <Address>Москва, 3-й Кадашёвский переулок, 9</Address>
         <Coordinates>
             <Lat>4.2</Lat>
@@ -154,586 +154,52 @@
         <Phones>
             <phoneSchema>
                 <CountryCode>+7</CountryCode>
-                <Number>42342342</Number>
+                <Number>92612345678</Number>
             </phoneSchema>
         </Phones>
         <Highway>
-            <Id>3</Id>
+            <Id>42</Id>
             <Distance>21.2</Distance>
         </Highway>
         <Undergrounds>
             <undergroundInfoSchema>
-                <Id>1</Id>
-                <Time>2</Time>
-                <TransportType>TRANSPORT</TransportType>
+                <Id>42</Id>
+                <Time>42</Time>
+                <TransportType>transport</TransportType>
             </undergroundInfoSchema>
             <undergroundInfoSchema>
-                <Id>1</Id>
-                <Time>6</Time>
-                <TransportType>WALK</TransportType>
+                <Id>42</Id>
+                <Time>42</Time>
+                <TransportType>walk</TransportType>
             </undergroundInfoSchema>
         </Undergrounds>
         <SubAgent>
-            <Email>email</Email>
-            <Phone>324234234</Phone>
+            <Email>subagent@realtor.ru</Email>
+            <Phone>+7 (911) 123-45-67</Phone>
             <FirstName>firstName</FirstName>
             <LastName>lastname</LastName>
-            <AvatarUrl>https://avatar.com</AvatarUrl>
+            <AvatarUrl>https://avatar.com/avatar.jpg</AvatarUrl>
         </SubAgent>
         <LayoutPhoto>
-            <FullUrl>https://layout-photo.com</FullUrl>
-            <IsDefault>false</IsDefault>
+            <FullUrl>https://layout-photo.com/layout-photo.jpg</FullUrl>
         </LayoutPhoto>
         <Photos>
             <photoSchema>
-                <FullUrl>https://photo/1.com</FullUrl>
-                <IsDefault>true</IsDefault>
+                <FullUrl>https://photo.com/1.jpg</FullUrl>
             </photoSchema>
             <photoSchema>
-                <FullUrl>https://photo/2.com</FullUrl>
-                <IsDefault>false</IsDefault>
+                <FullUrl>https://photo.com/2.jpg</FullUrl>
             </photoSchema>
             <photoSchema>
                 <FullUrl>https://photo/3.com</FullUrl>
-                <IsDefault>false</IsDefault>
             </photoSchema>
         </Photos>
         <Videos>
             <videoSchema>
-                <Url>https://video.com</Url>
+                <Url>https://video.com/video.mp4</Url>
             </videoSchema>
         </Videos>
         <Title>Some Title</Title>
-        <RentByParts>false</RentByParts>
-        <RentByPartsDescription>bla</RentByPartsDescription>
-        <PublishTerms>
-            <Terms>
-                <PublishTermSchema>
-                    <Services>HIGHLIGHT</Services>
-                    <Services>PAID</Services>
-                    <ExcludedServicesEnum>PREMIUM</ExcludedServicesEnum>
-                    <IgnoreServicePackages>true</IgnoreServicePackages>
-                </PublishTermSchema>
-            </Terms>
-        </PublishTerms>
-        <Auction>
-            <Bet>10.0</Bet>
-        </Auction>
-        <RepairType>DESIGN</RepairType>
-        <HasInternet>true</HasInternet>
-        <HasFurniture>true</HasFurniture>
-        <HasPhone>false</HasPhone>
-        <HasKitchenFurniture>true</HasKitchenFurniture>
-        <HasTv>false</HasTv>
-        <HasWasher>true</HasWasher>
-        <HasConditioner>false</HasConditioner>
-        <HasBathtub>true</HasBathtub>
-        <IsInHiddenBase>false</IsInHiddenBase>
-        <HasShower>true</HasShower>
-        <HasDishwasher>false</HasDishwasher>
-        <PetsAllowed>false</PetsAllowed>
-        <HasFridge>true</HasFridge>
-        <ChildrenAllowed>false</ChildrenAllowed>
-        <TotalArea>300.0</TotalArea>
-        <SettlementName>settletename</SettlementName>
-        <BedroomsCount>5</BedroomsCount>
-        <WcLocationType>indoors</WcLocationType>
-        <HasBathhouse>true</HasBathhouse>
-        <HasGarage>true</HasGarage>
-        <HasPool>false</HasPool>
-        <Land>
-            <Area>10.0</Area>
-            <AreaUnitType>sotka</AreaUnitType>
-        </Land>
-        <Building>
-            <FloorsCount>2</FloorsCount>
-            <BuildYear>2010</BuildYear>
-            <MaterialType>brick</MaterialType>
-            <HeatingType>centralGas</HeatingType>
-        </Building>
-        <BargainTerms>
-            <Price>25000.0</Price>
-            <UtilitiesTerms>
-                <IncludedInPrice>false</IncludedInPrice>
-                <Price>9000.0</Price>
-            </UtilitiesTerms>
-            <Currency>RUR</Currency>
-            <BargainAllowed>true</BargainAllowed>
-            <BargainPrice>23000.0</BargainPrice>
-            <BargainConditions>bla</BargainConditions>
-            <LeaseTermType>LONG_TERM</LeaseTermType>
-            <PrepayMonths>2</PrepayMonths>
-            <Deposit>35000</Deposit>
-            <ClientFee>10</ClientFee>
-            <AgentFee>15</AgentFee>
-            <AgentBonus>
-                <Value>22000.0</Value>
-                <PaymentType>fixed</PaymentType>
-                <Currency>rur</Currency>
-            </AgentBonus>
-        </BargainTerms>
-    </object>
-    <object>
-        <Category>townhouseRent</Category>
-        <ExternalId>71469a46-92e8-425c-b288-633a773ac4fe</ExternalId>
-        <Description>Some description</Description>
-        <Address>Москва, 3-й Кадашёвский переулок, 9</Address>
-        <Coordinates>
-            <Lat>2121.34</Lat>
-            <Lng>4441.22</Lng>
-        </Coordinates>
-        <CadastralNumber>cadastralnumber</CadastralNumber>
-        <Phones>
-            <phoneSchema>
-                <CountryCode>+7</CountryCode>
-                <Number>42342342</Number>
-            </phoneSchema>
-        </Phones>
-        <Highway>
-            <Id>3</Id>
-            <Distance>21.2</Distance>
-        </Highway>
-        <Undergrounds>
-            <undergroundInfoSchema>
-                <Id>1</Id>
-                <Time>2</Time>
-                <TransportType>TRANSPORT</TransportType>
-            </undergroundInfoSchema>
-            <undergroundInfoSchema>
-                <Id>1</Id>
-                <Time>6</Time>
-                <TransportType>WALK</TransportType>
-            </undergroundInfoSchema>
-        </Undergrounds>
-        <SubAgent>
-            <Email>email</Email>
-            <Phone>324234234</Phone>
-            <FirstName>firstName</FirstName>
-            <LastName>lastname</LastName>
-            <AvatarUrl>https://avatar.com</AvatarUrl>
-        </SubAgent>
-        <LayoutPhoto>
-            <FullUrl>https://layout-photo.com</FullUrl>
-            <IsDefault>false</IsDefault>
-        </LayoutPhoto>
-        <Photos>
-            <photoSchema>
-                <FullUrl>https://photo/1.com</FullUrl>
-                <IsDefault>true</IsDefault>
-            </photoSchema>
-            <photoSchema>
-                <FullUrl>https://photo/2.com</FullUrl>
-                <IsDefault>false</IsDefault>
-            </photoSchema>
-            <photoSchema>
-                <FullUrl>https://photo/3.com</FullUrl>
-                <IsDefault>false</IsDefault>
-            </photoSchema>
-        </Photos>
-        <Videos>
-            <videoSchema>
-                <Url>https://video.com</Url>
-            </videoSchema>
-        </Videos>
-        <Title>Some Title</Title>
-        <RentByParts>false</RentByParts>
-        <RentByPartsDescription>bla</RentByPartsDescription>
-        <PublishTerms>
-            <Terms>
-                <PublishTermSchema>
-                    <Services>HIGHLIGHT</Services>
-                    <Services>PAID</Services>
-                    <ExcludedServicesEnum>PREMIUM</ExcludedServicesEnum>
-                    <IgnoreServicePackages>true</IgnoreServicePackages>
-                </PublishTermSchema>
-            </Terms>
-        </PublishTerms>
-        <Auction>
-            <Bet>10.0</Bet>
-        </Auction>
-        <RepairType>DESIGN</RepairType>
-        <HasInternet>true</HasInternet>
-        <HasFurniture>true</HasFurniture>
-        <HasPhone>false</HasPhone>
-        <HasKitchenFurniture>true</HasKitchenFurniture>
-        <HasTv>false</HasTv>
-        <HasWasher>true</HasWasher>
-        <HasConditioner>false</HasConditioner>
-        <HasBathtub>true</HasBathtub>
-        <IsInHiddenBase>false</IsInHiddenBase>
-        <HasShower>true</HasShower>
-        <HasDishwasher>false</HasDishwasher>
-        <PetsAllowed>false</PetsAllowed>
-        <HasFridge>true</HasFridge>
-        <ChildrenAllowed>false</ChildrenAllowed>
-        <TotalArea>300.0</TotalArea>
-        <SettlementName>settletename</SettlementName>
-        <BedroomsCount>5</BedroomsCount>
-        <WcLocationType>indoors</WcLocationType>
-        <HasBathhouse>true</HasBathhouse>
-        <HasGarage>true</HasGarage>
-        <HasPool>false</HasPool>
-        <Land>
-            <Area>10.0</Area>
-            <AreaUnitType>sotka</AreaUnitType>
-        </Land>
-        <Building>
-            <FloorsCount>2</FloorsCount>
-            <BuildYear>2010</BuildYear>
-            <MaterialType>brick</MaterialType>
-            <HeatingType>centralGas</HeatingType>
-        </Building>
-        <BargainTerms>
-            <Price>25000.0</Price>
-            <UtilitiesTerms>
-                <IncludedInPrice>false</IncludedInPrice>
-                <Price>9000.0</Price>
-            </UtilitiesTerms>
-            <Currency>RUR</Currency>
-            <BargainAllowed>true</BargainAllowed>
-            <BargainPrice>23000.0</BargainPrice>
-            <BargainConditions>bla</BargainConditions>
-            <LeaseTermType>LONG_TERM</LeaseTermType>
-            <PrepayMonths>2</PrepayMonths>
-            <Deposit>35000</Deposit>
-            <ClientFee>10</ClientFee>
-            <AgentFee>15</AgentFee>
-            <AgentBonus>
-                <Value>22000.0</Value>
-                <PaymentType>fixed</PaymentType>
-                <Currency>rur</Currency>
-            </AgentBonus>
-        </BargainTerms>
-    </object>
-    <object>
-        <Category>houseRent</Category>
-        <ExternalId>b146c4de-2ff2-460b-8966-98c9fcbd0174</ExternalId>
-        <Description>Some description</Description>
-        <Address>Москва, 3-й Кадашёвский переулок, 9</Address>
-        <Coordinates>
-            <Lat>2121.34</Lat>
-            <Lng>4441.22</Lng>
-        </Coordinates>
-        <CadastralNumber>cadastralnumber</CadastralNumber>
-        <Phones>
-            <phoneSchema>
-                <CountryCode>+7</CountryCode>
-                <Number>42342342</Number>
-            </phoneSchema>
-        </Phones>
-        <Highway>
-            <Id>3</Id>
-            <Distance>21.2</Distance>
-        </Highway>
-        <Undergrounds>
-            <undergroundInfoSchema>
-                <Id>1</Id>
-                <Time>2</Time>
-                <TransportType>TRANSPORT</TransportType>
-            </undergroundInfoSchema>
-            <undergroundInfoSchema>
-                <Id>1</Id>
-                <Time>6</Time>
-                <TransportType>WALK</TransportType>
-            </undergroundInfoSchema>
-        </Undergrounds>
-        <SubAgent>
-            <Email>email</Email>
-            <Phone>324234234</Phone>
-            <FirstName>firstName</FirstName>
-            <LastName>lastname</LastName>
-            <AvatarUrl>https://avatar.com</AvatarUrl>
-        </SubAgent>
-        <LayoutPhoto>
-            <FullUrl>https://layout-photo.com</FullUrl>
-            <IsDefault>false</IsDefault>
-        </LayoutPhoto>
-        <Photos>
-            <photoSchema>
-                <FullUrl>https://photo/1.com</FullUrl>
-                <IsDefault>true</IsDefault>
-            </photoSchema>
-            <photoSchema>
-                <FullUrl>https://photo/2.com</FullUrl>
-                <IsDefault>false</IsDefault>
-            </photoSchema>
-            <photoSchema>
-                <FullUrl>https://photo/3.com</FullUrl>
-                <IsDefault>false</IsDefault>
-            </photoSchema>
-        </Photos>
-        <Videos>
-            <videoSchema>
-                <Url>https://video.com</Url>
-            </videoSchema>
-        </Videos>
-        <Title>Some Title</Title>
-        <RentByParts>false</RentByParts>
-        <RentByPartsDescription>bla</RentByPartsDescription>
-        <PublishTerms>
-            <Terms>
-                <PublishTermSchema>
-                    <Services>HIGHLIGHT</Services>
-                    <Services>PAID</Services>
-                    <ExcludedServicesEnum>PREMIUM</ExcludedServicesEnum>
-                    <IgnoreServicePackages>true</IgnoreServicePackages>
-                </PublishTermSchema>
-            </Terms>
-        </PublishTerms>
-        <Auction>
-            <Bet>10.0</Bet>
-        </Auction>
-        <RepairType>DESIGN</RepairType>
-        <HasInternet>true</HasInternet>
-        <HasFurniture>true</HasFurniture>
-        <HasPhone>false</HasPhone>
-        <HasKitchenFurniture>true</HasKitchenFurniture>
-        <HasTv>false</HasTv>
-        <HasWasher>true</HasWasher>
-        <HasConditioner>false</HasConditioner>
-        <HasBathtub>true</HasBathtub>
-        <IsInHiddenBase>false</IsInHiddenBase>
-        <HasShower>true</HasShower>
-        <HasDishwasher>false</HasDishwasher>
-        <PetsAllowed>false</PetsAllowed>
-        <HasFridge>true</HasFridge>
-        <ChildrenAllowed>false</ChildrenAllowed>
-        <TotalArea>300.0</TotalArea>
-        <SettlementName>settletename</SettlementName>
-        <BedroomsCount>5</BedroomsCount>
-        <WcLocationType>indoors</WcLocationType>
-        <HasBathhouse>true</HasBathhouse>
-        <HasGarage>true</HasGarage>
-        <HasPool>false</HasPool>
-        <Land>
-            <Area>10.0</Area>
-            <AreaUnitType>sotka</AreaUnitType>
-        </Land>
-        <Building>
-            <FloorsCount>2</FloorsCount>
-            <BuildYear>2010</BuildYear>
-            <MaterialType>brick</MaterialType>
-            <HeatingType>centralGas</HeatingType>
-        </Building>
-        <BargainTerms>
-            <Price>25000.0</Price>
-            <UtilitiesTerms>
-                <IncludedInPrice>false</IncludedInPrice>
-                <Price>9000.0</Price>
-            </UtilitiesTerms>
-            <Currency>RUR</Currency>
-            <BargainAllowed>true</BargainAllowed>
-            <BargainPrice>23000.0</BargainPrice>
-            <BargainConditions>bla</BargainConditions>
-            <LeaseTermType>LONG_TERM</LeaseTermType>
-            <PrepayMonths>2</PrepayMonths>
-            <Deposit>35000</Deposit>
-            <ClientFee>10</ClientFee>
-            <AgentFee>15</AgentFee>
-            <AgentBonus>
-                <Value>22000.0</Value>
-                <PaymentType>fixed</PaymentType>
-                <Currency>rur</Currency>
-            </AgentBonus>
-        </BargainTerms>
-    </object>
-    <object>
-        <Category>houseShareRent</Category>
-        <ExternalId>e809f37f-d39f-4d69-9c7f-b8e1583c6bfa</ExternalId>
-        <Description>Some description</Description>
-        <Address>Москва, 3-й Кадашёвский переулок, 9</Address>
-        <Coordinates>
-            <Lat>2121.34</Lat>
-            <Lng>4441.22</Lng>
-        </Coordinates>
-        <CadastralNumber>cadastralnumber</CadastralNumber>
-        <Phones>
-            <phoneSchema>
-                <CountryCode>+7</CountryCode>
-                <Number>42342342</Number>
-            </phoneSchema>
-        </Phones>
-        <Highway>
-            <Id>3</Id>
-            <Distance>21.2</Distance>
-        </Highway>
-        <Undergrounds>
-            <undergroundInfoSchema>
-                <Id>1</Id>
-                <Time>2</Time>
-                <TransportType>TRANSPORT</TransportType>
-            </undergroundInfoSchema>
-            <undergroundInfoSchema>
-                <Id>1</Id>
-                <Time>6</Time>
-                <TransportType>WALK</TransportType>
-            </undergroundInfoSchema>
-        </Undergrounds>
-        <SubAgent>
-            <Email>email</Email>
-            <Phone>324234234</Phone>
-            <FirstName>firstName</FirstName>
-            <LastName>lastname</LastName>
-            <AvatarUrl>https://avatar.com</AvatarUrl>
-        </SubAgent>
-        <LayoutPhoto>
-            <FullUrl>https://layout-photo.com</FullUrl>
-            <IsDefault>false</IsDefault>
-        </LayoutPhoto>
-        <Photos>
-            <photoSchema>
-                <FullUrl>https://photo/1.com</FullUrl>
-                <IsDefault>true</IsDefault>
-            </photoSchema>
-            <photoSchema>
-                <FullUrl>https://photo/2.com</FullUrl>
-                <IsDefault>false</IsDefault>
-            </photoSchema>
-            <photoSchema>
-                <FullUrl>https://photo/3.com</FullUrl>
-                <IsDefault>false</IsDefault>
-            </photoSchema>
-        </Photos>
-        <Videos>
-            <videoSchema>
-                <Url>https://video.com</Url>
-            </videoSchema>
-        </Videos>
-        <Title>Some Title</Title>
-        <RentByParts>false</RentByParts>
-        <RentByPartsDescription>bla</RentByPartsDescription>
-        <PublishTerms>
-            <Terms>
-                <PublishTermSchema>
-                    <Services>HIGHLIGHT</Services>
-                    <Services>PAID</Services>
-                    <ExcludedServicesEnum>PREMIUM</ExcludedServicesEnum>
-                    <IgnoreServicePackages>true</IgnoreServicePackages>
-                </PublishTermSchema>
-            </Terms>
-        </PublishTerms>
-        <Auction>
-            <Bet>10.0</Bet>
-        </Auction>
-        <RepairType>DESIGN</RepairType>
-        <HasInternet>true</HasInternet>
-        <HasFurniture>true</HasFurniture>
-        <HasPhone>false</HasPhone>
-        <HasKitchenFurniture>true</HasKitchenFurniture>
-        <HasTv>false</HasTv>
-        <HasWasher>true</HasWasher>
-        <HasConditioner>false</HasConditioner>
-        <HasBathtub>true</HasBathtub>
-        <IsInHiddenBase>false</IsInHiddenBase>
-        <HasShower>true</HasShower>
-        <HasDishwasher>false</HasDishwasher>
-        <PetsAllowed>false</PetsAllowed>
-        <HasFridge>true</HasFridge>
-        <ChildrenAllowed>false</ChildrenAllowed>
-        <TotalArea>300.0</TotalArea>
-        <ShareAmount>50</ShareAmount>
-        <SettlementName>settletename</SettlementName>
-        <BedroomsCount>5</BedroomsCount>
-        <WcLocationType>indoors</WcLocationType>
-        <HasBathhouse>true</HasBathhouse>
-        <HasGarage>true</HasGarage>
-        <HasPool>false</HasPool>
-        <Land>
-            <Area>10.0</Area>
-            <AreaUnitType>sotka</AreaUnitType>
-        </Land>
-        <Building>
-            <FloorsCount>2</FloorsCount>
-            <BuildYear>2010</BuildYear>
-            <MaterialType>brick</MaterialType>
-            <HeatingType>centralGas</HeatingType>
-        </Building>
-        <BargainTerms>
-            <Price>25000.0</Price>
-            <UtilitiesTerms>
-                <IncludedInPrice>false</IncludedInPrice>
-                <Price>9000.0</Price>
-            </UtilitiesTerms>
-            <Currency>RUR</Currency>
-            <BargainAllowed>true</BargainAllowed>
-            <BargainPrice>23000.0</BargainPrice>
-            <BargainConditions>bla</BargainConditions>
-            <LeaseTermType>LONG_TERM</LeaseTermType>
-            <PrepayMonths>2</PrepayMonths>
-            <Deposit>35000</Deposit>
-            <ClientFee>10</ClientFee>
-            <AgentFee>15</AgentFee>
-            <AgentBonus>
-                <Value>22000.0</Value>
-                <PaymentType>fixed</PaymentType>
-                <Currency>rur</Currency>
-            </AgentBonus>
-        </BargainTerms>
-    </object>
-    <object>
-        <Category>roomRent</Category>
-        <ExternalId>52e47c07-55c4-430b-a4aa-7364f4eab2a0</ExternalId>
-        <Description>Some description</Description>
-        <Address>Москва, 3-й Кадашёвский переулок, 9</Address>
-        <Coordinates>
-            <Lat>2121.34</Lat>
-            <Lng>4441.22</Lng>
-        </Coordinates>
-        <CadastralNumber>cadastralnumber</CadastralNumber>
-        <Phones>
-            <phoneSchema>
-                <CountryCode>+7</CountryCode>
-                <Number>42342342</Number>
-            </phoneSchema>
-        </Phones>
-        <Highway>
-            <Id>3</Id>
-            <Distance>21.2</Distance>
-        </Highway>
-        <Undergrounds>
-            <undergroundInfoSchema>
-                <Id>1</Id>
-                <Time>2</Time>
-                <TransportType>TRANSPORT</TransportType>
-            </undergroundInfoSchema>
-            <undergroundInfoSchema>
-                <Id>1</Id>
-                <Time>6</Time>
-                <TransportType>WALK</TransportType>
-            </undergroundInfoSchema>
-        </Undergrounds>
-        <SubAgent>
-            <Email>email</Email>
-            <Phone>324234234</Phone>
-            <FirstName>firstName</FirstName>
-            <LastName>lastname</LastName>
-            <AvatarUrl>https://avatar.com</AvatarUrl>
-        </SubAgent>
-        <LayoutPhoto>
-            <FullUrl>https://layout-photo.com</FullUrl>
-            <IsDefault>false</IsDefault>
-        </LayoutPhoto>
-        <Photos>
-            <photoSchema>
-                <FullUrl>https://photo/1.com</FullUrl>
-                <IsDefault>true</IsDefault>
-            </photoSchema>
-            <photoSchema>
-                <FullUrl>https://photo/2.com</FullUrl>
-                <IsDefault>false</IsDefault>
-            </photoSchema>
-            <photoSchema>
-                <FullUrl>https://photo/3.com</FullUrl>
-                <IsDefault>false</IsDefault>
-            </photoSchema>
-        </Photos>
-        <Videos>
-            <videoSchema>
-                <Url>https://video.com</Url>
-            </videoSchema>
-        </Videos>
-        <Title>Some Title</Title>
-        <RentByParts>false</RentByParts>
         <RentByPartsDescription>bla</RentByPartsDescription>
         <PublishTerms>
             <Terms>
@@ -757,165 +223,25 @@
         <HasWasher>true</HasWasher>
         <HasConditioner>false</HasConditioner>
         <HasBathtub>true</HasBathtub>
-        <IsInHiddenBase>false</IsInHiddenBase>
         <HasShower>true</HasShower>
         <HasDishwasher>false</HasDishwasher>
         <PetsAllowed>false</PetsAllowed>
         <HasFridge>true</HasFridge>
         <ChildrenAllowed>false</ChildrenAllowed>
-        <RoomForSaleCount>2</RoomForSaleCount>
-        <RoomType>SEPARATE</RoomType>
-        <RoomArea>52.0</RoomArea>
-        <RoomsCount>4</RoomsCount>
-        <TotalArea>100.0</TotalArea>
-        <FloorNumber>5</FloorNumber>
+        <RoomType>both</RoomType>
+        <FlatRoomsCount>2</FlatRoomsCount>
+        <TotalArea>60.0</TotalArea>
+        <FloorNumber>3</FloorNumber>
         <JKSchema>
-            <Id>6</Id>
-            <Name>name JK</Name>
+            <Id>4</Id>
+            <Name>JK name</Name>
         </JKSchema>
-        <KitchenArea>20.0</KitchenArea>
-        <LoggiasCount>1</LoggiasCount>
-        <BalconiesCount>2</BalconiesCount>
-        <SeparateWcsCount>1</SeparateWcsCount>
-        <CombinedWcsCount>1</CombinedWcsCount>
-        <HasRamp>false</HasRamp>
-        <Building>
-            <Name>name</Name>
-            <FloorsCount>9</FloorsCount>
-            <BuildYear>2004</BuildYear>
-            <MaterialType>PANEL</MaterialType>
-            <Series>rwsgewgfer</Series>
-            <CeilingHeight>2.8</CeilingHeight>
-            <PassengerLiftsCount>2</PassengerLiftsCount>
-            <CargoLiftsCount>0</CargoLiftsCount>
-            <HasGarbageChute>false</HasGarbageChute>
-            <Parking>
-                <Type>GROUND</Type>
-            </Parking>
-        </Building>
-        <BargainTerms>
-            <Price>25000.0</Price>
-            <UtilitiesTerms>
-                <IncludedInPrice>false</IncludedInPrice>
-                <Price>9000.0</Price>
-            </UtilitiesTerms>
-            <Currency>RUR</Currency>
-            <BargainAllowed>true</BargainAllowed>
-            <BargainPrice>23000.0</BargainPrice>
-            <BargainConditions>bla</BargainConditions>
-            <LeaseTermType>LONG_TERM</LeaseTermType>
-            <PrepayMonths>2</PrepayMonths>
-            <Deposit>35000</Deposit>
-            <ClientFee>10</ClientFee>
-            <AgentFee>15</AgentFee>
-            <AgentBonus>
-                <Value>22000.0</Value>
-                <PaymentType>fixed</PaymentType>
-                <Currency>rur</Currency>
-            </AgentBonus>
-        </BargainTerms>
-    </object>
-    <object>
-        <Category>bedRent</Category>
-        <ExternalId>4bda1b6e-3647-4b68-bfe5-b66db090e288</ExternalId>
-        <Description>Some description</Description>
-        <Address>Москва, 3-й Кадашёвский переулок, 9</Address>
-        <Coordinates>
-            <Lat>2121.34</Lat>
-            <Lng>4441.22</Lng>
-        </Coordinates>
-        <CadastralNumber>cadastralnumber</CadastralNumber>
-        <Phones>
-            <phoneSchema>
-                <CountryCode>+7</CountryCode>
-                <Number>42342342</Number>
-            </phoneSchema>
-        </Phones>
-        <Highway>
-            <Id>3</Id>
-            <Distance>21.2</Distance>
-        </Highway>
-        <Undergrounds>
-            <undergroundInfoSchema>
-                <Id>1</Id>
-                <Time>2</Time>
-                <TransportType>TRANSPORT</TransportType>
-            </undergroundInfoSchema>
-            <undergroundInfoSchema>
-                <Id>1</Id>
-                <Time>6</Time>
-                <TransportType>WALK</TransportType>
-            </undergroundInfoSchema>
-        </Undergrounds>
-        <SubAgent>
-            <Email>email</Email>
-            <Phone>324234234</Phone>
-            <FirstName>firstName</FirstName>
-            <LastName>lastname</LastName>
-            <AvatarUrl>https://avatar.com</AvatarUrl>
-        </SubAgent>
-        <LayoutPhoto>
-            <FullUrl>https://layout-photo.com</FullUrl>
-            <IsDefault>false</IsDefault>
-        </LayoutPhoto>
-        <Photos>
-            <photoSchema>
-                <FullUrl>https://photo/1.com</FullUrl>
-                <IsDefault>true</IsDefault>
-            </photoSchema>
-            <photoSchema>
-                <FullUrl>https://photo/2.com</FullUrl>
-                <IsDefault>false</IsDefault>
-            </photoSchema>
-            <photoSchema>
-                <FullUrl>https://photo/3.com</FullUrl>
-                <IsDefault>false</IsDefault>
-            </photoSchema>
-        </Photos>
-        <Videos>
-            <videoSchema>
-                <Url>https://video.com</Url>
-            </videoSchema>
-        </Videos>
-        <Title>Some Title</Title>
-        <RentByParts>false</RentByParts>
-        <RentByPartsDescription>bla</RentByPartsDescription>
-        <PublishTerms>
-            <Terms>
-                <PublishTermSchema>
-                    <Services>HIGHLIGHT</Services>
-                    <Services>PAID</Services>
-                    <ExcludedServicesEnum>PREMIUM</ExcludedServicesEnum>
-                    <IgnoreServicePackages>true</IgnoreServicePackages>
-                </PublishTermSchema>
-            </Terms>
-        </PublishTerms>
-        <Auction>
-            <Bet>10.0</Bet>
-        </Auction>
-        <RepairType>DESIGN</RepairType>
-        <HasInternet>true</HasInternet>
-        <HasFurniture>true</HasFurniture>
-        <HasPhone>false</HasPhone>
-        <HasKitchenFurniture>true</HasKitchenFurniture>
-        <HasTv>false</HasTv>
-        <HasWasher>true</HasWasher>
-        <HasConditioner>false</HasConditioner>
-        <HasBathtub>true</HasBathtub>
-        <IsInHiddenBase>false</IsInHiddenBase>
-        <HasShower>true</HasShower>
-        <HasDishwasher>false</HasDishwasher>
-        <PetsAllowed>false</PetsAllowed>
-        <HasFridge>true</HasFridge>
-        <ChildrenAllowed>false</ChildrenAllowed>
-        <RoomsForSaleCount>1</RoomsForSaleCount>
-        <RoomArea>44.0</RoomArea>
-        <BedsCount>1</BedsCount>
-        <RoomsCount>5</RoomsCount>
-        <TotalArea>94.0</TotalArea>
-        <FloorNumber>4</FloorNumber>
-        <KitchenArea>38.0</KitchenArea>
-        <LoggiasCount>0</LoggiasCount>
+        <AllRoomsArea>+30-10-20</AllRoomsArea>
+        <LivingArea>30.0</LivingArea>
+        <KitchenArea>10.0</KitchenArea>
+        <LoggiasCount>0.0</LoggiasCount>
+        <BalconiesCount>1</BalconiesCount>
+        <WindowsViewType>yardAndStreet</WindowsViewType>
         <SeparateWcsCount>0</SeparateWcsCount>
         <CombinedWcsCount>1</CombinedWcsCount>
         <HasRamp>true</HasRamp>
@@ -923,14 +249,14 @@
             <Name>name</Name>
             <FloorsCount>9</FloorsCount>
             <BuildYear>2004</BuildYear>
-            <MaterialType>PANEL</MaterialType>
+            <MaterialType>panel</MaterialType>
             <Series>rwsgewgfer</Series>
             <CeilingHeight>2.8</CeilingHeight>
             <PassengerLiftsCount>2</PassengerLiftsCount>
             <CargoLiftsCount>0</CargoLiftsCount>
             <HasGarbageChute>false</HasGarbageChute>
             <Parking>
-                <Type>GROUND</Type>
+                <Type>ground</Type>
             </Parking>
         </Building>
         <BargainTerms>
@@ -939,11 +265,11 @@
                 <IncludedInPrice>false</IncludedInPrice>
                 <Price>9000.0</Price>
             </UtilitiesTerms>
-            <Currency>RUR</Currency>
+            <Currency>rur</Currency>
             <BargainAllowed>true</BargainAllowed>
             <BargainPrice>23000.0</BargainPrice>
             <BargainConditions>bla</BargainConditions>
-            <LeaseTermType>LONG_TERM</LeaseTermType>
+            <LeaseTermType>longTerm</LeaseTermType>
             <PrepayMonths>2</PrepayMonths>
             <Deposit>35000</Deposit>
             <ClientFee>10</ClientFee>
