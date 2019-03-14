@@ -145,7 +145,7 @@
         <Category>cottageRent</Category>
         <ExternalId>acf72233-1619-4618-a312-b71227fd6dc8</ExternalId>
         <Description>Some description</Description>
-        <Address>Address 111</Address>
+        <Address>Москва, 3-й Кадашёвский переулок, 9</Address>
         <Coordinates>
             <Lat>2121.34</Lat>
             <Lng>4441.22</Lng>
@@ -277,7 +277,7 @@
         <Category>townhouseRent</Category>
         <ExternalId>71469a46-92e8-425c-b288-633a773ac4fe</ExternalId>
         <Description>Some description</Description>
-        <Address>Address 111</Address>
+        <Address>Москва, 3-й Кадашёвский переулок, 9</Address>
         <Coordinates>
             <Lat>2121.34</Lat>
             <Lng>4441.22</Lng>
@@ -409,7 +409,7 @@
         <Category>houseRent</Category>
         <ExternalId>b146c4de-2ff2-460b-8966-98c9fcbd0174</ExternalId>
         <Description>Some description</Description>
-        <Address>Address 111</Address>
+        <Address>Москва, 3-й Кадашёвский переулок, 9</Address>
         <Coordinates>
             <Lat>2121.34</Lat>
             <Lng>4441.22</Lng>
@@ -541,7 +541,7 @@
         <Category>houseShareRent</Category>
         <ExternalId>e809f37f-d39f-4d69-9c7f-b8e1583c6bfa</ExternalId>
         <Description>Some description</Description>
-        <Address>Address 111</Address>
+        <Address>Москва, 3-й Кадашёвский переулок, 9</Address>
         <Coordinates>
             <Lat>2121.34</Lat>
             <Lng>4441.22</Lng>
@@ -674,7 +674,7 @@
         <Category>roomRent</Category>
         <ExternalId>52e47c07-55c4-430b-a4aa-7364f4eab2a0</ExternalId>
         <Description>Some description</Description>
-        <Address>Address 111</Address>
+        <Address>Москва, 3-й Кадашёвский переулок, 9</Address>
         <Coordinates>
             <Lat>2121.34</Lat>
             <Lng>4441.22</Lng>
@@ -819,7 +819,7 @@
         <Category>bedRent</Category>
         <ExternalId>4bda1b6e-3647-4b68-bfe5-b66db090e288</ExternalId>
         <Description>Some description</Description>
-        <Address>Address 111</Address>
+        <Address>Москва, 3-й Кадашёвский переулок, 9</Address>
         <Coordinates>
             <Lat>2121.34</Lat>
             <Lng>4441.22</Lng>
